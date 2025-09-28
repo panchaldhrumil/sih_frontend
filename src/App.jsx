@@ -12,7 +12,7 @@ export default function App() {
   });
   const [rec, setRec] = useState(null);
   const [yieldPred, setYieldPred] = useState(null);
-  const API_BASE = "http://localhost:8000";
+  const API_BASE = "https://sih-backend-demo.onrender.com/";
 
   function handleChange(e) {
     const { name, value } = e.target;
